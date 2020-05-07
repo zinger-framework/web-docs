@@ -4,13 +4,4 @@ title: Database Schema
 sidebar_label: Database Schema
 ---
 
-Zinger Framework consiste of 3 components :
-
-1. Zinger Core:  is the backend server that exposes the REST API. The core is written using java spring boot framework. Mysql database is used for maintaining the state. Zinger core does not have an user interface on its own 
-
-2. Zinger Customer App: implements the user interface the customers used to interact with a shop outlet. They will be able to browse the catalogue ,place and track the orders.
-
-3. Zinger Seller App:  implements the user interface the shop owner used to interact with a customer. It provides inventory management and order management features.
-
-4. Super Admin App: implements the user interface for administering the entire application and managing the users.
-
+  <iframe width="100%" height="500px" style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); border-radius:15px;" allowtransparency="true" allowfullscreen="true" scrolling="no" title="Embedded DrawSQL IFrame" frameborder="0" src="https://drawsql.app/zinger-technologies/diagrams/zinger-framework/embed"></iframe> 
