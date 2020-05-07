@@ -28,3 +28,6 @@ class Index extends React.Component {
 }
 
 module.exports = Index;
+// <iframe width="100%" height="500px"
+//         allowTransparency="true" allowFullScreen="true" scrolling="no" title="Zinger Database Schema"
+//         frameBorder="0" src="https://drawsql.app/zinger-technologies/diagrams/zinger-framework/embed"></iframe>

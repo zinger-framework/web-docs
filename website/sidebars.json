@@ -1,7 +1,24 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    "Getting Started":[
+      "getting-started/architecture-overview",
+      "getting-started/database-schema"
+    ],
+    "Installation Guide": [
+      "installation-guide/prerequisites",
+      "installation-guide/fork",
+      "installation-guide/setup-db",
+      "installation-guide/build",
+      "installation-guide/run"
+    ],
+    "User Interface Manual": [
+      "user-interface-manual/overview",
+      "user-interface-manual/customer",
+      "user-interface-manual/seller",
+      "user-interface-manual/admin"
+    ],
+    "Community": [
+      "contribution-guideline"
+    ]
   }
 }

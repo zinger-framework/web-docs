@@ -9,71 +9,53 @@
 // site configuration options.
 
 const siteConfig = {
-  title: 'Zinger Docs',
+  title: 'Zinger',
   tagline: 'Zinger Docs',
   url: 'https://wizardly-spence-03a63b.netlify.app',
   baseUrl: '/',
 
-  projectName: 'Zinger Docs',
-  organizationName: 'Zinger',
+  projectName: 'zinger-framework-docs',
+  organizationName: 'ddlogesh',
 
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'}
-  ],
-
+    {doc: 'getting-started/architecture-overview', label: 'Docs'},
+    {href: "/samples", label: 'API'},
+    // {doc: 'getting-started/database-schema', label: 'API'},
+    {doc: 'installation-guide/prerequisites', label: 'Guides'},
+    {href: "/samples", label: 'Samples'}
+    ],
+  headerIcon: 'img/favicon.ico',
   footerIcon: 'img/favicon.ico',
   favicon: 'img/favicon.ico',
 
   colors: {
-    primaryColor: '#3f8c70',
-    secondaryColor: '#2c624e',
+    primaryColor: '#FF4141',
+    secondaryColor: '#FFFFFF',
+    greyColor:'#7C7C7C'
   },
 
-  /* Custom fonts for website */
-  /*
   fonts: {
     myFont: [
-      "Times New Roman",
-      "Serif"
-    ],
-    myOtherFont: [
-      "-apple-system",
-      "system-ui"
+      "Poppins",
+      "sans-serif"
     ]
   },
-  */
-
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
 
   highlight: {
-    // Highlight.js theme to use for syntax highlighting in code blocks.
     theme: 'default',
   },
+  stylesheets:[
+      "css/custom.css"
+  ],
 
-
-  // On page navigation for the current documentation page.
   onPageNav: 'separate',
-  // No .html extensions for paths.
   cleanUrl: true,
 
-  // Open Graph and Twitter card images.
-  ogImage: 'img/undraw_online.svg',
-  twitterImage: 'img/undraw_tweetstorm.svg',
-
-  // For sites with a sizable amount of content, set collapsible to true.
-  // Expand/collapse the links and subcategories under categories.
-  // docsSideNavCollapsible: true,
-
-  // Show documentation's last contributor's name.
-  // enableUpdateBy: true,
-
-  // Show documentation's last update time.
-  // enableUpdateTime: true,
-
-  // You may provide arbitrary config keys to be used as needed by your
-  // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+  disableHeaderTitle: false,
+  scrollToTop: true,
+  scrollToTopOptions: {
+    zIndex: 100,
+  },
 };
 
 module.exports = siteConfig;

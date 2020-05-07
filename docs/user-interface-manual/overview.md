@@ -4,8 +4,7 @@ title: Overview
 sidebar_label: Overview
 ---
 
-
-#Overview
+# Overview
 
 A in campus food ordering app
 

@@ -1,7 +1,7 @@
 ---
-id: architecture
-title: Architecture Overview 
-sidebar_label: Architecture
+id: database-schema
+title: Database Schema 
+sidebar_label: Database Schema
 ---
 
 Zinger Framework consiste of 3 components :
