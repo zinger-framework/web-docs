@@ -11,7 +11,7 @@
 const siteConfig = {
   title: 'Zinger',
   tagline: 'Zinger Docs',
-  url: 'https://zingerdocs.netlify.app',
+  url: 'https://thezinger.netlify.app',
   baseUrl: '/',
 
   projectName: 'zinger-framework-docs',
@@ -24,8 +24,8 @@ const siteConfig = {
     {doc: 'samples', label: 'Samples'}
     ],
   headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  footerIcon: 'img/zinger-logo.png',
+  favicon: 'img/zinger-logo.png',
 
   colors: {
     primaryColor: '#FF4141',
