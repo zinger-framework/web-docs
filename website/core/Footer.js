@@ -8,15 +8,6 @@
 const React = require('react');
 
 class Footer extends React.Component {
-  docUrl(doc) {
-    const baseUrl = this.props.config.baseUrl;
-    return `${baseUrl}${doc}`;
-  }
-
-  pageUrl(doc) {
-    const baseUrl = this.props.config.baseUrl;
-    return baseUrl + doc;
-  }
 
   render() {
     return (

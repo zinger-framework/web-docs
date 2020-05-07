@@ -9,22 +9,19 @@
 // site configuration options.
 
 const siteConfig = {
-  title: 'Zinger Docs', // Title for your website.
+  title: 'Zinger Docs',
   tagline: 'Zinger Docs',
-  url: 'https://nifty-minsky-3cd635.netlify.app',
+  url: 'https://wizardly-spence-03a63b.netlify.app',
   baseUrl: '/',
 
   projectName: 'Zinger Docs',
   organizationName: 'Zinger',
 
-  // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
     {doc: 'doc4', label: 'API'}
   ],
 
-  /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
   footerIcon: 'img/favicon.ico',
   favicon: 'img/favicon.ico',
 
