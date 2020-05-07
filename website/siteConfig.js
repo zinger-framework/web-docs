@@ -11,7 +11,7 @@
 const siteConfig = {
   title: 'Zinger',
   tagline: 'Zinger Docs',
-  url: 'https://wizardly-spence-03a63b.netlify.app',
+  url: 'https://zingerdocs.netlify.app',
   baseUrl: '/',
 
   projectName: 'zinger-framework-docs',
@@ -19,10 +19,9 @@ const siteConfig = {
 
   headerLinks: [
     {doc: 'getting-started/architecture-overview', label: 'Docs'},
-    {href: "/samples", label: 'API'},
-    // {doc: 'getting-started/database-schema', label: 'API'},
+    {doc: 'api', label: 'API'},
     {doc: 'installation-guide/prerequisites', label: 'Guides'},
-    {href: "/samples", label: 'Samples'}
+    {doc: 'samples', label: 'Samples'}
     ],
   headerIcon: 'img/favicon.ico',
   footerIcon: 'img/favicon.ico',

@@ -18,7 +18,9 @@
       "user-interface-manual/admin"
     ],
     "Community": [
-      "contribution-guideline"
+      "contribution-guideline",
+      "api",
+      "samples"
     ]
   }
 }
