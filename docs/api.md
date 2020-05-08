@@ -4,6 +4,4 @@ title: API Reference
 sidebar_label: API Reference
 ---
 
-A in campus food ordering app
-
-
+Please visit: https://documenter.getpostman.com/view/6369926/Szmb6KVo?version=latest

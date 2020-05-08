@@ -20,8 +20,8 @@ const siteConfig = {
   headerLinks: [
     {doc: 'getting-started/architecture-overview', label: 'Docs'},
     {doc: 'api', label: 'API'},
-    {doc: 'installation-guide/prerequisites', label: 'Guides'},
-    {doc: 'samples', label: 'Samples'}
+    {doc: 'installation-guide/prerequisites', label: 'Guide'},
+    {doc: 'case-study', label: 'Case Study'}
     ],
   headerIcon: 'img/favicon.ico',
   footerIcon: 'img/zinger-logo.png',

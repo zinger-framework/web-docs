@@ -17,10 +17,10 @@
       "user-interface-manual/seller",
       "user-interface-manual/admin"
     ],
-    "Community": [
-      "contribution-guideline",
+    "Help & Support": [
+      "community",
       "api",
-      "samples"
+      "case-study"
     ]
   }
 }
