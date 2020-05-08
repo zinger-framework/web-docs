@@ -1,41 +1,22 @@
 ---
 id: build
-title: Installation 
+title: Build & Deploy 
 sidebar_label: Build
 ---
 
+## Eclipse IDE
+* Choose `File -> Import -> Maven -> Existing Maven projects`
+* Right-click [MainApplication.java](https://github.com/ddlogesh/zinger-framework/blob/master/src/main/java/com/food/ordering/zinger/MainApplication.java) and choose `Run As -> Java Application`  
 
-# Prerequisites
-### Software Packages
-* Java 8
-* MySql 
-* Spring Boot
-### IDE
-* Eclipse JavaEE IDE
-* MySql Work Bench
-### Basic Knowledge  
-* MySQL Procedure and Trigger
-* Working knowledge of Spring Boot framework
+## IntelliJ IDEA
+* Choose `File -> Open` and choose the project location
+* Right-click [MainApplication.java](https://github.com/ddlogesh/zinger-framework/blob/master/src/main/java/com/food/ordering/zinger/MainApplication.java) and choose `Run MainApplication.main()` 
 
-# Step 1 - Fork The project
+## Test
+* Visit [localhost:8080](localhost:8080) in the browser to check if the setup is successful.
+* Test the endpoints in Postman by importing the [API collection](https://github.com/ddlogesh/zinger-framework/blob/master/Zinger%20framework%20(Release).json)
+* For detailed API documentation, please refer [API Docs](https://documenter.getpostman.com/view/6369926/Szmb6KVo?version=latest)
 
-   1. Fork the Main Repository
-   2. Git clone the fork created in the previous step
-
-# Setup MySQL DB
-
-   1. Open MySql workbench
-   2. Run the DB_INIT.sql script placed in the SQL folder to create the tables,triggers and indexes.
-   3. Run the DB_PROC.sql script placed in the SQL folder to create the procedures
-   4. Navigate to src/main/resources/application.properties file and add your MySql user name and password
-
-# Setup FireBase Admin SDK
-1. Create a [firebase](https://firebase.google.com/) project 
-2. Download the 
-
-# Build
-
-# Run
-
-
-
+## Deploy
+If you would like to integrate with any mobile or web application, use [Ngrok](https://ngrok.com/download) to get a public URL of 
+your localhost. Also, you can host in any of the online cloud service providers like [Heruko](https://www.heroku.com/), [Azure](https://azure.microsoft.com/), [AWS](https://aws.amazon.com/), etc.
