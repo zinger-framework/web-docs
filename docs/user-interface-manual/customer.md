@@ -31,6 +31,7 @@ It also contains a search bar to [search for menu](https://documenter.getpostman
 <div style="text-align:center; width:100%">
     <img src="/img/customer/CartMockup.jpg" width=200 height=350>
     <img src="/img/customer/PaymentMockup.jpg" width=200 height=350>
+    <img src="/img/customer/OrderSuccessMockup.jpg" width=200 height=350>
 </div>
 
 After adding all items to the cart, the user initiates the order sending a [verify order](https://documenter.getpostman.com/view/6369926/Szmb6KVo?version=latest#0d5c3879-a67d-42c9-94b5-86a3c44e6fb6) request to the zinger core. 
