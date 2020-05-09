@@ -5,7 +5,7 @@ sidebar_label: Fork Project
 ---
 
 * [Fork](https://github.com/ddlogesh/zinger-framework/fork) the Main Repository
-* Clone the forked repository locally `git clone forked_repo_url`
+* Clone the forked repository `git clone forked_repo_url`
 ## Setup DB
 
 * Open MySQL Workbench
