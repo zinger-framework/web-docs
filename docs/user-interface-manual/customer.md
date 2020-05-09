@@ -6,9 +6,9 @@ sidebar_label: Customer
 ## Authentication
 
 <div style="text-align:center; width:100%">
-    <img src="/img/customer/LoginMockup.jpg" width=200 height=350>
-    <img src="/img/customer/OtpMockup.jpg" width=200 height=350>
-    <img src="/img/customer/SignupMockup.jpg" width=200 height=350>
+    <img src="https://zingerdocs.netlify.app/img/customer/LoginMockup.jpg" width=200 height=350>
+    <img src="https://zingerdocs.netlify.app/img/customer/OtpMockup.jpg" width=200 height=350>
+    <img src="https://zingerdocs.netlify.app/img/customer/SignupMockup.jpg" width=200 height=350>
 </div>
 
 Mobile OTP authentication verifies the user's contact number and a [login](https://documenter.getpostman.com/view/6369926/Szmb6KVo?version=latest#6cfdc342-eeeb-4758-a58e-d272c6554347) request is sent to the zinger core to confirm the user credentials. 
@@ -18,9 +18,9 @@ The user will be onboarded to the dashboard screen post the successful authentic
 ## Dashboard
 
 <div style="text-align:center; width:100%">
-    <img src="/img/customer/HomeMockup.jpg" width=200 height=350>
-    <img src="/img/customer/MenuMockup.jpg" width=200 height=350>
-    <img src="/img/customer/SearchMockup.jpg" width=200 height=350>
+    <img src="https://zingerdocs.netlify.app/img/customer/HomeMockup.jpg" width=200 height=350>
+    <img src="https://zingerdocs.netlify.app/img/customer/MenuMockup.jpg" width=200 height=350>
+    <img src="https://zingerdocs.netlify.app/img/customer/SearchMockup.jpg" width=200 height=350>
 </div>
 
 The dashboard [list all the shops](https://documenter.getpostman.com/view/6369926/Szmb6KVo?version=latest#0f1549f4-6542-4e25-9e0a-f6a12a982149) in a given campus, along with the [menu](https://documenter.getpostman.com/view/6369926/Szmb6KVo?version=latest#074585ad-5d73-444c-98a3-757451af0d23) information.
@@ -29,9 +29,9 @@ It also contains a search bar to [search for menu](https://documenter.getpostman
 ## Cart
 
 <div style="text-align:center; width:100%">
-    <img src="/img/customer/CartMockup.jpg" width=200 height=350>
-    <img src="/img/customer/PaymentMockup.jpg" width=200 height=350>
-    <img src="/img/customer/OrderSuccessMockup.jpg" width=200 height=350>
+    <img src="https://zingerdocs.netlify.app/img/customer/CartMockup.jpg" width=200 height=350>
+    <img src="https://zingerdocs.netlify.app/img/customer/PaymentMockup.jpg" width=200 height=350>
+    <img src="https://zingerdocs.netlify.app/img/customer/OrderSuccessMockup.jpg" width=200 height=350>
 </div>
 
 After adding all items to the cart, the user initiates the order sending a [verify order](https://documenter.getpostman.com/view/6369926/Szmb6KVo?version=latest#0d5c3879-a67d-42c9-94b5-86a3c44e6fb6) request to the zinger core. 
@@ -41,9 +41,9 @@ Post the successful transaction, a [place order](https://documenter.getpostman.c
 ## Track Orders
 
 <div style="text-align:center; width:100%">
-    <img src="/img/customer/OrdersMockup.jpg" width=200 height=350>
-    <img src="/img/customer/OrderDetailMockup.jpg" width=200 height=350>
-    <img src="/img/customer/RateOrderMockup.jpg" width=200 height=350>
+    <img src="https://zingerdocs.netlify.app/img/customer/OrdersMockup.jpg" width=200 height=350>
+    <img src="https://zingerdocs.netlify.app/img/customer/OrderDetailMockup.jpg" width=200 height=350>
+    <img src="https://zingerdocs.netlify.app/img/customer/RateOrderMockup.jpg" width=200 height=350>
 </div>
 
 The user can view the [past orders](https://documenter.getpostman.com/view/6369926/Szmb6KVo?version=latest#f841dc8b-7326-4080-9479-b0f6ad6103d1) and track the current order status.
