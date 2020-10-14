@@ -15,7 +15,7 @@ sidebar_label: Build
 ## Test
 * Visit [localhost:8080](localhost:8080) in the browser to check if the setup is successful.
 * Test the endpoints in Postman by importing the [API collection](https://github.com/ddlogesh/zinger-framework/blob/master/Zinger%20framework%20(Release).json)
-* For detailed API documentation, please refer [API Docs](https://documenter.getpostman.com/view/6369926/Szmb6KVo?version=latest)
+* For detailed API documentation, please refer [API Docs](https://documenter.getpostman.com/view/6369926/TVRoYmFY?version=latest)
 
 ## Deploy
 If you would like to integrate with any mobile or web application, use [Ngrok](https://ngrok.com/download) to get a public URL of 
