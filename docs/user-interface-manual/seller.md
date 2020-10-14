@@ -11,7 +11,7 @@ sidebar_label: Seller
     <img src="https://zingerdocs.netlify.app/img/seller/OtpMockup.jpg" width=200 height=350>
 </div>
 
-Mobile OTP authentication verifies the user's contact number and a [login](https://documenter.getpostman.com/view/6369926/TVRoYmFY?version=latest#f60f885d-0fdb-4cc3-b40d-2e30f51742a9) request is sent to the zinger core to confirm the user credentials. The user will be onboarded to the dashboard screen post the successful authentication.
+Mobile OTP authentication verifies the user's contact number and a [login](https://documenter.getpostman.com/view/6369926/TVRoYmFY#de7b4d5a-84a4-41de-b604-bef7972c4c0c) request is sent to the zinger core to confirm the user credentials. The user will be onboarded to the dashboard screen post the successful authentication.
 
 ## Dashboard
 
@@ -21,12 +21,12 @@ Mobile OTP authentication verifies the user's contact number and a [login](https
     <img src="https://zingerdocs.netlify.app/img/seller/ReadyMockup.jpg" width=200 height=350>
 </div>
 
-The dashboard [list all the current orders](https://documenter.getpostman.com/view/6369926/TVRoYmFY?version=latest#34d6371a-4244-404b-a04a-d710a35c4fb8), which are classified into three tabs namely 
+The dashboard [list all the current orders](https://documenter.getpostman.com/view/6369926/TVRoYmFY#966fc9f2-efa4-402f-ad8e-1242bb617c73), which are classified into three tabs namely 
 * New Orders 
 * Preparing 
 * Ready
 
-The user can update the order status by sending an [update order](https://documenter.getpostman.com/view/6369926/TVRoYmFY?version=latest#5d57a934-dac8-410b-8e78-55577231a975) request. 
+The user can update the order status by sending an [update order](https://documenter.getpostman.com/view/6369926/TVRoYmFY#91033e98-5638-4e90-80f2-832584a0d85a) request. 
 The user should enter the secret key received by the customer to complete the order.
 
 ## Inventory
@@ -37,7 +37,7 @@ The user should enter the secret key received by the customer to complete the or
     <img src="https://zingerdocs.netlify.app/img/seller/AddUpdateItemMockup.jpg" width=200 height=350>
 </div>
 
-The user can [add](https://documenter.getpostman.com/view/6369926/TVRoYmFY?version=latest#2f2038c3-c509-4da6-bba4-796ea786148d), [delete](https://documenter.getpostman.com/view/6369926/TVRoYmFY?version=latest#1cf0bea0-c378-42db-a2b8-b8cc3e3d8d80) or [modify](https://documenter.getpostman.com/view/6369926/TVRoYmFY?version=latest#93f7f12e-51be-4da0-a5b0-ac2efc3ff268) the dish information, which includes price, availability, etc.
+The user can [add](https://documenter.getpostman.com/view/6369926/TVRoYmFY#49ac7c35-ec40-4445-8540-90db8724178e), [delete](https://documenter.getpostman.com/view/6369926/TVRoYmFY#1d1aee84-3a96-486d-8256-027a7674b3e1) or [modify](https://documenter.getpostman.com/view/6369926/TVRoYmFY#25bd5783-93d6-4390-a3e2-ff1e4d0cdb2a) the dish information, which includes price, availability, etc.
 
 ## Past Orders
 
@@ -47,5 +47,5 @@ The user can [add](https://documenter.getpostman.com/view/6369926/TVRoYmFY?versi
     <img src="https://zingerdocs.netlify.app/img/seller/OrderDetailsMockup.jpg" width=200 height=350>
 </div>
 
-The user can [review](https://documenter.getpostman.com/view/6369926/TVRoYmFY?version=latest#2bd40cb5-a6cb-4712-9e17-029707269b14) the order history for business analysis and customer insights.
-The user can also [search](https://documenter.getpostman.com/view/6369926/TVRoYmFY?version=latest#3f2ad8d4-12c2-4c44-8f15-726b4430ad61) for past orders by customer name, mobile number or order id.
+The user can [review](https://documenter.getpostman.com/view/6369926/TVRoYmFY#73d3a350-297e-412b-b9dc-bfbee2ba9a74) the order history for business analysis and customer insights.
+The user can also [search](https://documenter.getpostman.com/view/6369926/TVRoYmFY#38b89d7c-f1b7-4141-bbc3-96b1c480d50b) for past orders by customer name, mobile number or order id.
