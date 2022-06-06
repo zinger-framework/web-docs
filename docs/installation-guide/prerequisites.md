@@ -4,15 +4,21 @@ title: Prerequisites
 sidebar_label: Prerequisites
 ---
 
-## Software Packages
-* Java **8** or newer
-* MySQL **8.0.19**
-* Spring Boot **2.2.4**
+## Tech Stacks
+* Rails **6**
+* PostgreSQL **12.1**
+* Redis
 
-## Preferred IDE
-* Eclipse JavaEE IDE
-* IntelliJ IDEA
-* MySQL Work Bench
+## Install Applications
+* Docker Desktop
 
-## Basic Knowledge  
-* MySQL Procedure and Trigger
+## Update Hosts
+Add the below lines to your hosts file to run the application in custom subdomain.
+```shell
+127.0.0.1	api.zinger.pw
+127.0.0.1	admin.zinger.pw 
+127.0.0.1	platform.zinger.pw
+```
+Host file location
+- Linux/Mac - `/etc/hosts`
+- Windows - `C:\Windows\System32\drivers\etc\hosts`

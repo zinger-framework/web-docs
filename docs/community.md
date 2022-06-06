@@ -17,8 +17,7 @@ Found a bug? Have a new feature to suggest? or to contribute changes to the code
 Use the GitHub projects to report bugs:
 
 * [Zinger Core](https://github.com/zinger-framework/zinger-core/issues)
-* [Zinger Client](https://github.com/shrikanth7698/Zinger-Android-App/issues)
-* [Zinger Partner](https://github.com/harshavardhan98/Zinger-Seller-App/issues)
+* [Zinger Client](https://github.com/zinger-framework/zinger-ui/issues)
 
 **Note** : Please don't use GitHub issues to ask questions.
 

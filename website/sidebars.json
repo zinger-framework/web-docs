@@ -6,14 +6,12 @@
     ],
     "Installation Guide": [
       "installation-guide/prerequisites",
-      "installation-guide/fork",
-      "installation-guide/build"
+      "installation-guide/fork"
     ],
     "User Interface Manual": [
       "user-interface-manual/overview",
       "user-interface-manual/customer",
-      "user-interface-manual/seller",
-      "user-interface-manual/admin"
+      "user-interface-manual/seller"
     ],
     "Help & Support": [
       "community",

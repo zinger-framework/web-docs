@@ -6,15 +6,14 @@ sidebar_label: Fork Project
 
 * [Fork](https://github.com/zinger-framework/zinger-core/fork) the Main Repository
 * Clone the forked repository `git clone forked_repo_url`
-## Setup DB
 
-* Open MySQL Workbench
-* Run the [DB_INIT.sql](https://github.com/zinger-framework/zinger-core/blob/master/sql/DB_INIT.sql) script to create the tables, indexes and triggers.
-* Run the [DB_PROC.sql](https://github.com/zinger-framework/zinger-core/blob/master/sql/DB_PROC.sql) script to create the procedures.
-* Run the [DB_INSERT.sql](https://github.com/zinger-framework/zinger-core/blob/master/sql/DB_INSERT.sql) script to populate the database.
-* Set your MySQL username and password in [application.properties](https://github.com/zinger-framework/zinger-core/blob/master/src/main/resources/application.properties)
+## Run Project
+- Navigate to project root directory & run `docker-compose up`
+- The angular application will be running in the following endpoints:
+    - Customer APIs - http://api.zinger.pw
+    - Admin APIs - http://admin.zinger.pw
+    - Platform APIs - http://platform.zinger.pw
 
-## Setup Firebase Admin SDK
-* Create a new [Firebase](https://console.firebase.google.com/) project 
-* Navigate to `Project setting -> Service accounts -> Generate service account -> Generate new private key`
-* Set your credentials file path in [application.properties](https://github.com/zinger-framework/zinger-core/blob/master/src/main/resources/application.properties)
+## Deploy
+If you would like to integrate with any mobile or web application, use [Ngrok](https://ngrok.com/download) to get a public URL of
+your localhost. Also, you can host in any of the online cloud service providers like [Heruko](https://www.heroku.com/), [Azure](https://azure.microsoft.com/), [AWS](https://aws.amazon.com/), etc.
